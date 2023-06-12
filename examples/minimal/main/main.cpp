@@ -48,7 +48,7 @@ void printEventName(Event event) {
   };
 }
 
-class PersonMachine : public StateMachine {
+class PersonMachine : public ::StateMachine::StateMachine {
 public:
   void setup() { initialize((State)&PersonMachine::Farmer); };
 
