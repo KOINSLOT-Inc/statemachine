@@ -5,13 +5,15 @@
 # caches
 .cache/
 __pycache__/
+.devkit
 
 # build files
 build/
 sdkconfig
 sdkconfig.old
 dependencies.lock
+compile_commands.json
 
 # test files
 test.log
-test_report.xml
+report.xml
